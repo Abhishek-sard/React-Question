@@ -4,11 +4,12 @@ import './index.css'
 import App from './App.jsx'
 import Counter from './Component/Counter.jsx'
 import Login from './Component/login.jsx'
-
+import HideShow  from './Component/hideshow.jsx'
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <App />
     <Counter/>
     <Login/>
+    <HideShow/>
   </StrictMode>
 )
